@@ -1,0 +1,54 @@
+variable:
+	
+	a=10 // integer 2 bytes -32,768 to +32,767 %d
+	b=12.5// float 4 bytes 3.4 e-34 to 3.4 e+34 %f
+	c=12.56749999999 // double 8 bytes 3.4 e-308 to 3.4 e+308 %lf
+	c='a'; // 1 byte -128 to 127 %c
+	str[10]="gitamhyd";
+	///9
+	/// 10 bytes
+	%s
+	long,short,signed,unsigned
+	int 2 bytes
+	long int 4 bytes
+	-2146473648 to +2146473647
+	unsigned int 0 to 65535
+	unsigned char 0 to 255
+	%u -- unsigned integer
+	ASCII
+	256 values
+	A=65,,,,,,,,,,,,Z=90
+	a=97,,,,,,,,,,,,z=122
+	0=48,,,,,,,,,,,,,9=57
+	space=' '=32
+	int a=015; //(015)base8
+	printf("%o",a);
+	printf("%d",a); // decimal equalent of 15
+	int b=0x17;
+	printf("%x",b); //(17)base 16
+	
+	
+Operators:
+	1. Arthematic operators
+	    +,-,*,/ and %
+	a=10,b=3;
+	a/b=3;
+	a%b=1
+	2. Logical operator
+	and &&
+	or ||
+	not |
+exp1 exp2 exp1&&exp2 exp1||exp2 |exp1
+T     T      T          T        F
+T     F      F          T        F
+F     T      F          T        T
+F     F      F          F        T
+
+3.relational operators
+<<= > >=  !=
+4. Assignment operators
+=
++=,-=,*=,%= // Compound assignments
+a+=b ---- a=a+b
+5. sizeof()
+used to find the size of datatype/literals/variables	
